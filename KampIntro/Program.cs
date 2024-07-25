@@ -6,25 +6,26 @@ namespace KampIntro
     {
         public static void Main(string[] args)
         {
-            string kategoriEtiketi = "Kategori";
+            string categoryTag = "Kategori";
             int ogrenciSayisi = 32000;
             double faizOrani = 1.45;           //Ondalıklı sayıları double ve float tutar
-            bool sistemeGirisYapmisMİ = false; //Değerleri doğru ya da yanlış olabilecek durumlar için kullanılır.
+            bool checkPoint = false; */ 
+                                               //Değerleri doğru ya da yanlış olabilecek durumlar için kullanılır.
                                                //Gerçek hayatta 1 ya da 0 karşılığı bir veri kaynağından gelir.
                                                // bool sistemeGirisYapmisMi = ddddddd();
                                                //Yukarıdaki örnekteki gibi karışılığında bir fonksiyon olur normalde.
-            double dolarDun = 7.35;
-            double dolarBugun = 7.45;
+            double dollarYesterday = 7.35;
+            double dollarToday = 7.45;
 
-            if (dolarDun > dolarBugun)
+            if (dollarYesterday > dollarToday)
             {
                 Console.WriteLine("Azalış Görseli");
             }
-            else if (dolarDun < dolarBugun)
+            else if ( dollarYesterday < dollarToday)
             {
                 Console.WriteLine("Artış Görseli");
             }
-            else // (dolarDun == dolarBugun)
+            else // ( dollarYesterday == dollarToday)
             {
                 Console.WriteLine("Sabit Görseli");
             }
@@ -32,9 +33,9 @@ namespace KampIntro
 
 
 
-            // Console.WriteLine(kategoriEtiketi);
+            // Console.WriteLine(categoryTag);
 
-            if (sistemeGirisYapmisMİ == true)
+            if (checkPoint == true)
             {
                 Console.WriteLine("Kullanıcı ayarı butonu");
             }
