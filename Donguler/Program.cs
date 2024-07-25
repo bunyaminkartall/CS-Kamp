@@ -6,18 +6,18 @@ namespace Donguler
     {
         static void Main(string[] args)
         {
-            //string kurs1 = "yazılım geliştirici yetiştirme kursu";
-            //string kurs2 = " programlamaya başlangıç için temel kursu";
-            //string kurs3 = "java kursu";
+            //string course1 = "yazılım geliştirici yetiştirme kursu";
+            //string course2 = " programlamaya başlangıç için temel kursu";
+            //string course3 = "java kursu";
 
             //array - dizi
 
-            string[] kurslar = new string[] {"Yazılım Geliştirici Yetiştirme Kampı","Programlamaya Başlangıç İçin Temel Kursu",
+            string[] courses = new string[] {"Yazılım Geliştirici Yetiştirme Kampı","Programlamaya Başlangıç İçin Temel Kursu",
                 "Java Kursu","Python Kursu","OOP Kursu","SAP Kursu"};
 
-            for (int i = 0; i < kurslar.Length; i++)
+            for (int i = 0; i < courses.Length; i++)
             {
-                Console.WriteLine(kurslar[i]);
+                Console.WriteLine(courses[i]);
             }
             Console.WriteLine();
             Console.WriteLine("For Döngüsü Bitti");
@@ -25,9 +25,9 @@ namespace Donguler
             Console.WriteLine("Foreach Döngüsü Başladı");
             Console.WriteLine();
 
-            foreach (string kurs in kurslar)
+            foreach (string course in courses)
             {
-                Console.WriteLine(kurs);
+                Console.WriteLine(course);
             }
             Console.WriteLine();
             Console.WriteLine("Sayfa Sonu");
